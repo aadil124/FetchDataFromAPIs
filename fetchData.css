@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#title{
+    text-align: center;
+    padding: 2%;
+    color: darkgreen;
+    background-color: greenyellow;
+}
+#mainBody{
+    background-color: rgb(246, 73, 10);
+}
+#span{
+    font-weight: 500;
+    padding: 2%;
+    color:rgb(10, 1, 10);
+}
+.para{
+    text-align: center ;
+}
