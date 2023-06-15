@@ -14,12 +14,14 @@ btn.addEventListener("click", async function getData() {
       let name = item.name.first;
 
       output += `
-        <div class="col border-dark">
+        <div class="col text-info">
             <div class="card h-80">
                 <img src="${picture}" class="card-img-top" alt="...">
-                <div class="card-body text-success">
-                    <h5 class="card-title">Name: ${name}</h5>
+                <div class="card-header">
+                   <h5 class="card-title">Name: ${name}</h5>
                     <p class="card-text">Age: ${item.dob.age}</p>
+                </div>
+                <div class="card-body">
                     <p class="card-text">Email: ${item.email}</p>
                     <p class="card-text">Country: ${item.location.country}</p>
                     <p class="card-text">Mob: ${item.cell}</p>
