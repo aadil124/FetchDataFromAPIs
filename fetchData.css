@@ -7,16 +7,16 @@
 #title{
     text-align: center;
     padding: 2%;
-    color: darkgreen;
-    background-color: greenyellow;
+    color: rgb(38, 3, 150);
+    background-color: rgb(206, 226, 175);
 }
 #mainBody{
-    background-color: rgb(246, 73, 10);
+    background-color: rgb(71, 148, 54);
 }
 #span{
     font-weight: 500;
     padding: 2%;
-    color:rgb(10, 1, 10);
+    color:rgb(23, 22, 23);
 }
 .para{
     text-align: center ;
